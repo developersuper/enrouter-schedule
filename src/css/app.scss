@@ -1,0 +1,128 @@
+// app global css in SCSS form
+@font-face {
+  font-family: "AvenirBold";
+  src: url("../assets/fonts/Avenir/Avenir-Demi.ttf");
+}
+
+@font-face {
+  font-family: "AvenirRegular";
+  src: url("../assets/fonts/Avenir/Avenir-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AvenirLight";
+  src: url("../assets/fonts/Avenir/Avenir-Light.ttf");
+}
+
+body {
+  font-family: AvenirRegular;
+  font-weight: 400;
+  color: grey;
+}
+
+.main-text-input {
+  border: none;
+}
+
+.main-text-input:hover {
+  outline: #a8c0ff40;
+}
+
+.heading-one {
+  font-size: 2rem;
+  font-family: AvenirBold;
+}
+
+.heading-two {
+  font-size: 1.5rem;
+  font-family: AvenirBold;
+}
+
+.body-text {
+  font-size: 1.2em;
+  font-family: AvenirRegular;
+}
+
+.body-text-caption {
+  font-size: 0.8em;
+  font-family: AvenirLight;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.primary-button {
+  background: #006bff;
+  color: white;
+  border: 1px solid white;
+  font-family: AvenirBold;
+  font-weight: 500;
+  padding-left: 36px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-right: 36px !important;
+  // : 0px 4px 4px rgba(0, 107, 255, 0.15);
+  border-radius: 8px;
+}
+
+.secondary-button {
+  background: #a8c0ff20;
+  color: grey;
+  border: 1px solid 006BFF;
+  font-weight: 500;
+  padding-left: 36px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-right: 36px !important;
+  // : 0px 4px 4px rgba(0, 107, 255, 0.15);
+  border-radius: 8px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.br-10 {
+  border-radius: 6px !important;
+}
+
+.q-field__native {
+  color: grey !important;
+}
+
+.q-table__card {
+  color: grey !important;
+}
+
+.disable-cursor {
+  cursor: not-allowed;
+}
+
+.body-text-bold {
+  font-family: AvenirBold;
+  font-size: 1.2em;
+}
+
+.body-text-small-bold {
+  font-family: AvenirBold;
+  font-size: 1em;
+}
+
+.popup-card {
+  min-width: 60vw;
+}
+@media (max-width: 960px) {
+  .popup-card {
+    width: 90vw;
+  }
+}
+
+/*hide scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+.q-field__prefix {
+  color: grey !important;
+}
